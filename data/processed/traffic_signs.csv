@@ -1,0 +1,9 @@
+image,label
+data/raw/stop_0.png,Stop
+data/raw/stop_1.png,Stop
+data/raw/yield_0.png,Yield
+data/raw/yield_1.png,Yield
+data/raw/speedlimit_0.png,SpeedLimit
+data/raw/speedlimit_1.png,SpeedLimit
+data/raw/noentry_0.png,NoEntry
+data/raw/noentry_1.png,NoEntry
