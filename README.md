@@ -162,8 +162,7 @@ Epoch 2/2 | Loss: 0.7091 | Acc: 1.00
 
 ##  Author
 Developed by **Divya**  
-AI/ML Developer | Full‑stack Python | Computer Vision Enthusiast
-```
+AI/ML Developer 
 
----
+
 
