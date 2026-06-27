@@ -10,7 +10,7 @@ This repository demonstrates an end‑to‑end ML workflow: dataset preparation,
 
 
 ##  Project Structure
-```
+
 Traffic_Sign_Recognition/
 
 │
