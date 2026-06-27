@@ -2,51 +2,82 @@
 ---
 
 ```markdown
-# 🚦 Traffic Sign Recognition
+#  Traffic Sign Recognition
 
 A computer vision project for classifying traffic signs using **PyTorch** and **ResNet18**.  
 This repository demonstrates an end‑to‑end ML workflow: dataset preparation, model training, evaluation, testing, and interactive exploration via Jupyter notebooks.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 Traffic_Sign_Recognition/
-│
-├── data/
-│   ├── raw/               # Raw traffic sign images
-│   └── processed/         # Preprocessed dataset (class folders or CSV)
-│
-├── docs/                  # Documentation
-│
-├── models/
-│   └── traffic_sign_resnet18.pth  # Saved model weights
-│
-├── notebooks/
-│   └── exploration.ipynb  # Interactive notebook for inference
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_pipeline.py   # Dataset + DataLoader
-│   ├── model.py           # ResNet18 customization
-│   ├── train.py           # Training loop
-│   ├── evaluate.py        # Model loading + evaluation
-│   ├── utils.py           # Helper functions
-│   └── main.py            # Entry point
-│
-├── tests/
-│   ├── test_data_pipeline.py
-│   ├── test_model.py
-│   └── test_utils.py
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
 
+│
+
+├── data/
+
+│   ├── raw/               # Raw traffic sign images
+
+│   └── processed/         # Preprocessed dataset (class folders or CSV)
+
+│
+
+├── docs/                  # Documentation
+
+│
+
+├── models/
+
+│   └── traffic_sign_resnet18.pth  # Saved model weights
+
+│
+
+├── notebooks/
+
+
+│   └── exploration.ipynb  # Interactive notebook for inference
+
+│
+
+├── src/
+
+│   ├── __init__.py
+
+│   ├── data_pipeline.py   # Dataset + DataLoader
+
+│   ├── model.py           # ResNet18 customization
+
+│   ├── train.py           # Training loop
+
+│   ├── evaluate.py        # Model loading + evaluation
+
+│   ├── utils.py           # Helper functions
+
+│   └── main.py            # Entry point
+
+│
+
+├── tests/
+
+│   ├── test_data_pipeline.py
+
+│   ├── test_model.py
+
+│   └── test_utils.py
+
+│
+
+├── .gitignore
+
+├── README.md
+
+└── requirements.txt
+
+```
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
    ```bash
@@ -68,7 +99,7 @@ Traffic_Sign_Recognition/
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Train & Evaluate
 Run the pipeline:
@@ -99,18 +130,18 @@ Features:
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 Training log:
 ```
 Epoch 1/2 | Loss: 3.9790 | Acc: 0.00
 Epoch 2/2 | Loss: 0.7091 | Acc: 1.00
-💾 Model saved to models/traffic_sign_resnet18.pth
-✅ Model loaded from models/traffic_sign_resnet18.pth
+ Model saved to models/traffic_sign_resnet18.pth
+ Model loaded from models/traffic_sign_resnet18.pth
 ```
 
 ---
 
-## 📈 Next Steps
+##  Next Steps
 - Add more synthetic or real traffic sign images (e.g., GTSRB dataset)
 - Increase training epochs for better accuracy
 - Add validation/test splits
@@ -119,7 +150,7 @@ Epoch 2/2 | Loss: 0.7091 | Acc: 1.00
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python 3.11
 - PyTorch & TorchVision
 - OpenCV
@@ -129,7 +160,7 @@ Epoch 2/2 | Loss: 0.7091 | Acc: 1.00
 
 ---
 
-## 👩‍💻 Author
+##  Author
 Developed by **Divya**  
 AI/ML Developer | Full‑stack Python | Computer Vision Enthusiast
 ```
